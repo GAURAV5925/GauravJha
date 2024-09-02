@@ -1,0 +1,130 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Day 1 Assignment</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- Heading of the Website -->
+        <div>
+            <img src="velocious_Nocolor_bg.png" alt="Velocious Logo">
+            <br>
+
+            <!--SVG Text is used here for Title-->
+        <svg height="70" width="100%"> <text font-size="2em" x="250" y="50%"><tspan font-weight="bold" fill="red">VELOCIOUS</tspan> - COMPLETE SOURCE TO PAY SOLUTION</text></svg>
+        </div>
+
+        <div>
+
+            <div class="content-center">
+                <img src="client.jpg" alt="client">
+            </div>
+
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores iusto consequuntur magni. Dolore eum tempore voluptatum quae explicabo enim ipsam quaerat quasi temporibus rerum iusto eveniet dicta nihil assumenda atque, facere debitis minima! Debitis
+                </p>
+            </div>
+
+            <div>
+                <!-- About Product using Details & Summary Tag-->
+                <details>
+                    <summary style="color:red">About Velocious</summary>
+                    <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis dolorem ratione ipsum deserunt voluptatum deleniti voluptatem obcaecati repudiandae ea nihil ex dicta pariatur at, omnis excepturi quasi enim laborum quidem.
+                <br><br>
+
+                <!--Video Showing about Product-->
+
+                <div class="content-center">
+                    <video controls width="900">
+                
+                    <source src="product.mp4" type="video/mp4" />
+                
+                </video>
+
+                </details>
+                <br>
+                
+                </div>
+
+                <!-- <dialog open>
+                    <p>Welcome to Avaali Solutions !!</p>
+                
+                    <button>OK</button>
+                
+                </dialog> -->
+                
+
+                <!--CONTACT US FORM-->
+
+                <div>
+                    <details>
+                        <summary style="color:red">Contact Us</summary>
+
+                        <br>
+
+                        <div class="content-center">
+
+                        <form action="">
+
+                        <!--In Label for is used to connect with input otherwise we had to nest the input in label tag the id should be set same name as the for-->
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="Name" size="10" required>
+                        <br><br>
+
+                        <label for="organisation">Organisation Name</label>
+                        <input type="text" id="organisation" name="OrgName" size="40" required>
+                        <br><br>
+
+                        <label for="Email">Email</label>
+                        <input type="email" id="Email" name="Email" size="40" required>
+                        <br><br>
+
+                        <label for="mobile">Mobile Number</label>
+                        <input type="tel" id="mobile" name="Mobile" size="40" pattern="[0-9]{10}" required>
+                        <br><br>
+
+                        <label for="appointment">Book a Appointment</label>
+                        <input type="date" id="appointment" name="Appointment" size="40" pattern="[1-9]{1}[0-9]{9}" required>
+                        <br><br>
+
+                        <label for="query">Enter you Query</label>
+                        <textarea name="Query" id="query" rows="5" cols="45">Please enter your query here</textarea>
+                        <br><br>
+  
+
+
+                        <input type="checkbox" id="query" >I Agree with all T&C</input>
+                        <br><br>
+
+                        <input type="submit" name="submit">
+
+                        
+
+
+                    </form>
+
+            </div>
+
+
+
+
+
+            </div>
+
+            
+            </div>
+
+        </div>
+
+
+        
+
+
+        
+    </body>
+    </html>
